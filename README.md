@@ -12,7 +12,7 @@ The solution was "faster-whisper":
 
 For the setup and required hardware / software see /1/
 
-After setting up, feel free to use the code below to test it.
+After setting up, feel free to use the code provided in the repo.
 
 *Beware*: models can use some diskspace, so keep an eye on you system-stats!
 
