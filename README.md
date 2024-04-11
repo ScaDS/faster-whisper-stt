@@ -26,7 +26,7 @@ After importing necessary libs, of course, we
 
 2. init the model (Tiny-Whisper, see /2/)
 
-3. feed a audio file (.wav) in "model.transcribe() as well as giving the target language and other inputs (see below)
+3. feed a audio file (.wav) in "model.transcribe() as well as giving the target language and other inputs 
 
 4. print the transcript and processing-time in terminal-output
 
