@@ -14,7 +14,7 @@ For the setup and required hardware / software see /1/
 
 After setting up, feel free to use the code provided in the repo.
 
-*Beware*: models can use some diskspace, so keep an eye on you system-stats!
+*Beware*: models can use some diskspace, so keep an eye on your system-stats!
 
 # How it works & what it does
 ## Transcribe wav-file
