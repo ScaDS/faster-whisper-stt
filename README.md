@@ -32,6 +32,7 @@ After importing necessary libs, of course, we
 
 # Usage
 **important**: tested under Win11; Python3.11.5; pip24.0
+- read https://github.com/SYSTRAN/faster-whisper?tab=readme-ov-file#requirements /1/
 
 - create a venv (Win11, e.g.: `python -m venv stt-venv`)
 
