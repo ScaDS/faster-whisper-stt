@@ -18,7 +18,7 @@ After setting up, feel free to use the code provided in the repo.
 
 # How it works & what it does
 ## Transcribe wav-file
-**important**: set the correct path in line 53 (ger) or 54 (eng) and choose the target language by commenting/uncommenting one of these lines
+**important**: set the correct path in line 54 (ger) or 55 (eng) and choose the target language by commenting/uncommenting one of these lines
 
 After importing necessary libs, of course, we
 
