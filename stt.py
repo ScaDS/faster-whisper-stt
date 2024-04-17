@@ -20,7 +20,8 @@ Beware: models can use some diskspace, so keep an eye on you system-stats!
 Before testing: 
 - comment/uncomment the function you want to test: 
     # transcribe wav-file
-        Beware: set the correct path in line 53 (ger) or 54 (eng)
+        Beware: change device by commenting/uncommenting in line 54 (CPU) / 55 (GPU)
+                set the correct path in line 56 (ger) or 57 (eng)
  
 After importing necessary libs, of course, we 
     1. initialize the time-module for time-measurement
@@ -50,7 +51,8 @@ import time                                     # "time" only for seeing how cra
 
 # Transcribe wav-file
 transcribe_start_time = time.time()
-model = WhisperModel("tiny", device="cuda")
+model = WhisperModel("tiny", device="cpu")
+# model = WhisperModel("tiny", device="cuda")
 segments, _ = model.transcribe("path/to/your-wav-file.wav", language="de", word_timestamps=True)    # transcribe german
 # segments, _ = model.transcribe("path/to/your-wav-file.wav", language="en", word_timestamps=True)              # transcribe english
 transcribe_end_time = time.time()
