@@ -24,9 +24,9 @@ After importing necessary libs, of course, we
 
 1. initialize the time-module for time-measurement
 
-2. init the model (Tiny-Whisper, see /2/)
+2. init the model (Tiny-Whisper, see /2/); 
 
-3. feed an audio file (.wav) in "model.transcribe() as well as giving the target language and other inputs 
+3. feed an audio file (.wav) in "model.transcribe() as well as giving the target language and other inputs (for german you can check e.g. [https://www.lightbulblanguages.co.uk/resources-ge-sound-files.htm])
 
 4. print the transcript and processing-time in terminal-output
 
