@@ -49,10 +49,10 @@ Beware: tested under Win11; Python3.11.5; pip24.0
 from faster_whisper import WhisperModel
 import time                                     # "time" only for seeing how crazy fast this works (on proper hardware) :)
 
-# Transcribe wav-file
-transcribe_start_time = time.time()
 model = WhisperModel("tiny", device="cpu")
 # model = WhisperModel("tiny", device="cuda")
+# Transcribe wav-file
+transcribe_start_time = time.time()
 segments, _ = model.transcribe("path/to/your-wav-file.wav", language="de", word_timestamps=True)    # transcribe german
 # segments, _ = model.transcribe("path/to/your-wav-file.wav", language="en", word_timestamps=True)              # transcribe english
 transcribe_end_time = time.time()
