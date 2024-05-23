@@ -26,7 +26,7 @@ After importing necessary libs, of course, we
 
 2. init the model (Tiny-Whisper, see /2/)
 
-3. feed a audio file (.wav) in "model.transcribe() as well as giving the target language and other inputs 
+3. feed an audio file (.wav) in "model.transcribe() as well as giving the target language and other inputs 
 
 4. print the transcript and processing-time in terminal-output
 
@@ -47,7 +47,7 @@ Build cuda_12.3.r12.3/compiler.33567101_0
 
 - create a venv (Win11, e.g.: `python -m venv stt-venv`)
 
-- activate venv (Win11: `stt-venv/scripts/activate`)
+- activate venv (Win11: `stt-venv/Scripts/activate`)
 
 - `pip install -r requirements.txt`
 
